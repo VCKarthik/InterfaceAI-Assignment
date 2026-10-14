@@ -1,0 +1,82 @@
+[
+  {
+    "step": 1,
+    "action": "fill",
+    "kind": "label",
+    "name": "Member ID",
+    "role": "",
+    "output_key": "",
+    "result": "completed"
+  },
+  {
+    "step": 2,
+    "action": "click",
+    "kind": "role",
+    "name": "Search",
+    "role": "button",
+    "output_key": "",
+    "result": "completed"
+  },
+  {
+    "step": 3,
+    "action": "click",
+    "kind": "role",
+    "name": "Open Member",
+    "role": "link",
+    "output_key": "",
+    "result": "completed"
+  },
+  {
+    "step": 4,
+    "action": "click",
+    "kind": "role",
+    "name": "Accounts",
+    "role": "link",
+    "output_key": "",
+    "result": "completed"
+  },
+  {
+    "step": 5,
+    "action": "click",
+    "kind": "role",
+    "name": "Open Savings",
+    "role": "link",
+    "output_key": "",
+    "result": "completed"
+  },
+  {
+    "step": 5,
+    "event": "human_handoff_requested"
+  },
+  {
+    "step": 5,
+    "event": "human_handoff_completed"
+  },
+  {
+    "step": 6,
+    "action": "extract",
+    "kind": "table_row",
+    "name": "Current Balance",
+    "role": "",
+    "output_key": "balance",
+    "result": "completed"
+  },
+  {
+    "step": 7,
+    "action": "extract",
+    "kind": "table_row",
+    "name": "Status",
+    "role": "",
+    "output_key": "account_status",
+    "result": "completed"
+  },
+  {
+    "step": 8,
+    "action": "finish",
+    "kind": "none",
+    "name": "",
+    "role": "",
+    "output_key": "",
+    "result": "verified"
+  }
+]

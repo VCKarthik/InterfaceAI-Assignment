@@ -1,0 +1,20 @@
+{
+  "run_id": "bd0a73528f48",
+  "mode": "replay",
+  "status": "failure",
+  "outcome_code": "INVALID_INPUT",
+  "outputs": {},
+  "artifact_path": null,
+  "llm_decision_calls": 0,
+  "message": "Invalid input",
+  "error": {
+    "phase": "validation",
+    "step": null,
+    "expected": {
+      "member_id": "five ASCII digits"
+    },
+    "observed": {
+      "exception_type": "ValueError"
+    }
+  }
+}

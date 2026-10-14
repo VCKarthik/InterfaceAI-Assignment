@@ -1,0 +1,11 @@
+{
+  "control_owner": "automation",
+  "events": [
+    {
+      "kind": "click",
+      "control": "Approve demo verification",
+      "at": 1791917776861
+    }
+  ],
+  "human_action_count": 1
+}

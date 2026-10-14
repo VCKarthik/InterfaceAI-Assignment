@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pyc
+# Generated run evidence is local until reviewed for synthetic/redacted content.
+evidence/runs/

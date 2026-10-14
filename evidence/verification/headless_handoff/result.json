@@ -1,0 +1,18 @@
+{
+  "run_id": "e5186015ba68",
+  "mode": "replay",
+  "status": "needs_human",
+  "outcome_code": "OPERATOR_VERIFICATION_REQUIRED",
+  "outputs": {},
+  "artifact_path": null,
+  "llm_decision_calls": 0,
+  "message": "Operator verification required",
+  "error": {
+    "phase": "handoff",
+    "step": 6,
+    "expected": {},
+    "observed": {
+      "state": "OPERATOR_VERIFICATION_REQUIRED"
+    }
+  }
+}

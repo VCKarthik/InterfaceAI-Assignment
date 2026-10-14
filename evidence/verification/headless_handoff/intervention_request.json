@@ -1,0 +1,15 @@
+{
+  "run_id": "e5186015ba68",
+  "mode": "replay",
+  "step": 6,
+  "capability_id": "get_savings_balance",
+  "current_state": "OPERATOR_VERIFICATION_REQUIRED",
+  "action": null,
+  "target_name": null,
+  "failure": null,
+  "reason": "OPERATOR_VERIFICATION_REQUIRED",
+  "control_owner": "none",
+  "live_session_available": false,
+  "screenshot": "handoff.png",
+  "requested_at": "2026-10-14T17:27:22.199087+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "28618b655fde",
+  "mode": "replay",
+  "status": "success",
+  "outcome_code": "BALANCE_FOUND",
+  "outputs": {
+    "balance": "7210.38",
+    "currency": "USD",
+    "account_status": "ACTIVE"
+  },
+  "artifact_path": null,
+  "llm_decision_calls": 0,
+  "message": ""
+}

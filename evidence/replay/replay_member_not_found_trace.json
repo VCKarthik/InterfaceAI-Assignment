@@ -1,0 +1,20 @@
+[
+  {
+    "step": 1,
+    "action": "fill",
+    "kind": "label",
+    "name": "Member ID",
+    "role": "",
+    "output_key": "",
+    "result": "completed"
+  },
+  {
+    "step": 2,
+    "action": "click",
+    "kind": "role",
+    "name": "Search",
+    "role": "button",
+    "output_key": "",
+    "result": "completed"
+  }
+]

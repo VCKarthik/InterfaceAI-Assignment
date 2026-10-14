@@ -1,0 +1,10 @@
+{
+  "run_id": "ed9e2efe3123",
+  "mode": "replay",
+  "status": "business_outcome",
+  "outcome_code": "MEMBER_NOT_FOUND",
+  "outputs": {},
+  "artifact_path": null,
+  "llm_decision_calls": 0,
+  "message": ""
+}

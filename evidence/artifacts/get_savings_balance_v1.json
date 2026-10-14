@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "capability_id": "get_savings_balance",
+  "capability_version": "1.0.0",
+  "target_app": "demo_legacy_credit_union",
+  "entry_path": "/servicing",
+  "inputs": {
+    "member_id": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "outputs": {
+    "balance": {
+      "type": "decimal_string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "account_status": {
+      "type": "string"
+    }
+  },
+  "success_text": "Current Balance",
+  "steps": [
+    {
+      "action": "fill",
+      "kind": "label",
+      "name": "Member ID",
+      "role": "",
+      "value": "{{member_id}}",
+      "output_key": "",
+      "rationale": ""
+    },
+    {
+      "action": "click",
+      "kind": "role",
+      "name": "Search",
+      "role": "button",
+      "value": "",
+      "output_key": "",
+      "rationale": ""
+    },
+    {
+      "action": "click",
+      "kind": "role",
+      "name": "Open Member",
+      "role": "link",
+      "value": "",
+      "output_key": "",
+      "rationale": ""
+    },
+    {
+      "action": "click",
+      "kind": "role",
+      "name": "Accounts",
+      "role": "link",
+      "value": "",
+      "output_key": "",
+      "rationale": ""
+    },
+    {
+      "action": "click",
+      "kind": "role",
+      "name": "Open Savings",
+      "role": "link",
+      "value": "",
+      "output_key": "",
+      "rationale": ""
+    },
+    {
+      "action": "extract",
+      "kind": "table_row",
+      "name": "Current Balance",
+      "role": "",
+      "value": "",
+      "output_key": "balance",
+      "rationale": ""
+    },
+    {
+      "action": "extract",
+      "kind": "table_row",
+      "name": "Status",
+      "role": "",
+      "value": "",
+      "output_key": "account_status",
+      "rationale": ""
+    },
+    {
+      "action": "finish",
+      "kind": "none",
+      "name": "",
+      "role": "",
+      "value": "",
+      "output_key": "",
+      "rationale": ""
+    }
+  ]
+}

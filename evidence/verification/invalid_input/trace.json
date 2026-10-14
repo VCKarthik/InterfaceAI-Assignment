@@ -1,0 +1,13 @@
+[
+  {
+    "event": "run_failed",
+    "phase": "validation",
+    "step": null,
+    "expected": {
+      "member_id": "five ASCII digits"
+    },
+    "observed": {
+      "exception_type": "ValueError"
+    }
+  }
+]

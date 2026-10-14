@@ -1,0 +1,6 @@
+{
+  "reason": "OPERATOR_VERIFICATION_REQUIRED",
+  "control_owner": "human",
+  "current_state": "verification_gate",
+  "screenshot": "handoff.png"
+}

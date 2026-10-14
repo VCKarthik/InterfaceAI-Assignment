@@ -1,0 +1,14 @@
+{
+  "run_id": "9f2e595e5353",
+  "mode": "discovery",
+  "status": "success",
+  "outcome_code": "BALANCE_FOUND",
+  "outputs": {
+    "balance": "4582.39",
+    "currency": "USD",
+    "account_status": "ACTIVE"
+  },
+  "artifact_path": "/Users/karthik/Desktop/InterfaceAI_Automation/artifacts/get_savings_balance_v1.json",
+  "llm_decision_calls": 8,
+  "message": ""
+}
